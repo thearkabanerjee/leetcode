@@ -1,14 +1,11 @@
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
   bool isPalindrome(int x) {
     if (x < 0) {
       return false;
     } else {
-      int a = 0;
-      int b = x;
+      long long a = 0;
+      long long b = x;
 
       while (x > 0) {
         a *= 10;
